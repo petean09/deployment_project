@@ -1,0 +1,29 @@
+{
+  "name": "deployment_project",
+  "version": "1.0.0",
+  "description": "Senior Project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petean09/deployment_project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/petean09/deployment_project/issues"
+  },
+  "homepage": "https://github.com/petean09/deployment_project#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  }
+}
